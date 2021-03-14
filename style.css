@@ -1,7 +1,10 @@
 * {
-  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   
+}
+
+html {
+  font-size: 18px;
 }
 
 html,
@@ -11,7 +14,7 @@ body {
 }
 
 header, main {
-  padding: 48px 0px;
+  padding: 72px 0px;
 }
 
 main {
@@ -39,11 +42,11 @@ strong {
 
 
 .intro-chunk p {
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 .card p {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 
@@ -55,7 +58,7 @@ strong {
 h2.indented-heading {
   margin-top: 8px;
   margin-left: -48px;
-  width: max-content;
+  width: fit-content;
   padding: 16px 48px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   background: hsl(45deg, 100%, 50%);
