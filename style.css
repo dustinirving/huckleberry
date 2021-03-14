@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  
 }
 
 html,
@@ -9,4 +10,57 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header, main {
+  padding: 48px 0px;
+}
+
+main {
+  background: hsl(0deg, 0%, 60%);
+}
+
+p {
+  line-height: 1.5em;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  padding: 16px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card, header {
+  border-bottom: 6px solid hsl(0deg, 0%, 30%);
+}
+
+
+.intro-chunk p {
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+
+.card, .intro-chunk {
+  background: hsl(0deg, 0%, 100%);
+  padding: 2px 32px;
+}
+
+h2.indented-heading {
+  margin-top: 8px;
+  margin-left: -48px;
+  width: max-content;
+  padding: 16px 48px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  background: hsl(45deg, 100%, 50%);
+}
+
+header .intro-chunk {
+  max-width: 400px;
+}
